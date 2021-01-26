@@ -7,6 +7,7 @@ export default function App() {
   const [infoText, setInfoText] = useState('Guess a number between 1-100');
   const [quesses, setQuesses] = useState(1);
   const [secretNumber, setSecretNumber] = useState(Math.floor(Math.random() * 100) + 1);
+  //Git testaus
   
   const checkQuess = () => {
     setQuesses(quesses + 1);
